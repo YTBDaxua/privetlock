@@ -319,7 +319,7 @@ mt.__namecall =
     GameInfo.Position = UDim2.new(0.0841121525, 0, 0.259652048, 0)
     GameInfo.Size = UDim2.new(0, 267, 0, 34)
     GameInfo.Font = Enum.Font.GothamSemibold
-    GameInfo.Text = "HELLO MY SON"
+    GameInfo.Text = "Daxua"
     GameInfo.TextColor3 = Color3.fromRGB(150, 150, 150)
     GameInfo.TextSize = 20.000
     GameInfo.TextWrapped = true
@@ -495,7 +495,7 @@ mt.__namecall =
                         "SendNotification",
                         {
                             Title = "Daxuacute",
-                            Text = "Daxua pro ?",
+                            Text = "Lchi cute ?",
                             Duration = 5,
                             Callback = bindable,
                             Button1 = "Yes",
@@ -2711,7 +2711,7 @@ do
 
     --// CREATING WINDOW FOR KITTENASSIST
 	local IMGUIWindow = library:AddWindow("Daxua", {
-		main_color = Color3.fromRGB(35, 35, 35),
+		main_color = Color3.fromRGB(35, 25, 40),
 		min_size = Vector2.new(500, 600),
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true
@@ -2751,7 +2751,7 @@ do
 		
 		end)
 
-		local silenabled2 = silentAimbotTab:AddSwitch("Hit Every Airshots",function(state)
+		local silenabled2 = silentAimbotTab:AddSwitch("Hit Every Airshots(fps drop)",function(state)
 
 			getgenv().AirshotSilent = state
 		
@@ -2769,7 +2769,7 @@ do
 		
 		end)
 
-		local silenabled4 = silentAimbotTab:AddSwitch("Copy",function(state)
+		local silenabled4 = silentAimbotTab:AddSwitch("Copy (laggy)",function(state)
 
 			getgenv().CopyMode = state
 		
@@ -2780,7 +2780,7 @@ do
         --// LABELS
 		anotherTab:AddLabel("Credits")
 		anotherTab:AddLabel("Daxua#1112")
-		anotherTab:AddLabel("ez Daxua pro")
+		anotherTab:AddLabel("yeu Linh Chi vlon hihi")
 		anotherTab:AddLabel("Thanks To choose Daxua")
 		anotherTab:AddLabel("Right Shift to close UI")
 
